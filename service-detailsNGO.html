@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Service Details NGO</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+
+  <link href="assets/img/Group 13.svg" rel="icon"> 
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iLanding
+  * Template URL: https://bootstrapmade.com/ilanding-bootstrap-landing-page-template/
+  * Updated: Nov 12 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="service-details-page">
+  <script>
+    function showSection(event, sectionId) {
+      event.preventDefault();
+
+      // Hide all sections
+      const sections = document.querySelectorAll('.content-section');
+      sections.forEach(section => {
+        section.style.display = 'none';
+      });
+
+      // Remove active class from all links
+      const links = document.querySelectorAll('.services-list a');
+      links.forEach(link => {
+        link.classList.remove('active');
+      });
+
+      // Show the selected section
+      const activeSection = document.getElementById(sectionId);
+      activeSection.style.display = 'block';
+
+      // Add active class to clicked link
+      event.currentTarget.classList.add('active');
+    }
+
+  </script>
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div
+      class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="assets/img/Group 13.svg" alt="">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li class="dropdown">
+            <a href="#"> Features <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul class="dropdown-menu">
+                <li><a href="service-details_Shayaka.html">Shayaka Application</a></li>
+                <li><a href="service-detailsNGO.html">NGO Application</a></li>
+        </li>        
+            </ul>
+          </li>
+          <!-- <li><a href="#services">Services</a></li> -->
+          <li><a href="Request.html">Requests</a></li>
+          <li><a href="Service.html">Service</a></li>
+          <li><a href="Shayaka.html">Shayakas</a></li>
+          <li><a href="NGOs.html">NGOs</a></li>
+           <li><a href="Contact_us.html">Contacts Us</a></li>
+           <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe9I7qwz8iaf8wv_U71dvuNCp4XGNkSk3j_cdx1vXC79D6Cdw/viewform?usp=header" target="_blank">Join Us</a></li>
+          <!-- <li class="dropdown"><a href="#"><span></span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span></span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Shayaka application feature</a></li>
+                  <li><a href="#">NGO application feature</a></li>
+                  
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul> -->
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+         
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="https://ngo-dev-faefc.web.app/">Login</a>
+
+
+     <!--<a class="btn-getstarted" href="index.html#about">Add Request</a>--> 
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+            
+              <h1 class="mb-4 animated-text">
+                Explore the Shayaka NGO feature on <span class="blue-text">Karmas</span>. <br>
+                <!-- <span class="accent-text">Vestibulum Ante</span> -->
+              </h1>
+
+              <style>
+                .blue-text {
+                  color: #004761; /* Bootstrap Primary Blue */
+                  font-weight: bold; /* Optional: Make it bold for emphasis */
+                }
+              
+                /* Keep existing animation for h1 */
+                @keyframes text-animation {
+                  0% {
+                    opacity: 0;
+                    transform: translateY(20px);
+                  }
+                  50% {
+                    opacity: 0.5;
+                    transform: translateY(10px);
+                  }
+                  100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                  }
+                }
+              
+                .animated-text {
+                  font-size: 2.5rem;
+                  font-weight: bold;
+                  animation: text-animation 1.5s ease-in-out;
+                  display: inline-block;
+                }
+              </style>
+
+              <p class="mb-6 mb-md-9">
+
+              
+Learn about their mission and the lives they’ve impacted.
+Discover inspiring stories and how you can get involved.
+Join us in making a difference, one step at a time.
+
+<strong>Download this app to get started</strong>
+<strong>Download this app to get started</strong>
+<div class="hero-buttons">
+  <a href="https://play.google.com/store/apps/details?id=com.karmas.android" target="_blank" class="btn btn-primary me-0 me-sm-2 mx-1">
+    <i class="bi bi-cloud-download animated-icon me-2"></i> <!-- Cloud Download Icon -->
+    Download App
+  </a>
+</div>
+
+<style>
+  /* Increase the size of the icon */
+  .animated-icon {
+    font-size: 1.5rem; /* Adjust to desired size */
+    animation: bounce 2s infinite; /* Bounce animation remains */
+    display: inline-block;
+  }
+
+  /* Bounce Animation */
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0); /* No movement */
+    }
+    40% {
+      transform: translateY(-10px); /* Bounce up */
+    }
+    60% {
+      transform: translateY(-5px); /* Slightly lower bounce */
+    }
+  }
+
+  /* Optional: Add hover effect for the button */
+  .btn-primary:hover .animated-icon {
+    animation: bounce 0.8s infinite; /* Faster bounce on hover */
+  }
+</style>
+
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
+              <img src="assets/img/Service Shayaka .svg" alt="Hero Image" class="img-fluid">
+
+    </section>
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="service-box">
+              <h4>Features</h4>
+              <div class="services-list">
+                <a onclick="showSection(event, 'home')" class="active"><i
+                    class="bi bi-arrow-right-circle"></i><span>Dashboard Overview
+                  </span></a>
+                <a onclick="showSection(event, 'requests')"><i class="bi bi-arrow-right-circle"></i><span>Requests
+                    Overview</span></a>
+                <a onclick="showSection(event, 'donation')"><i class="bi bi-arrow-right-circle"></i><span>Total Donation
+                    Overview
+                  </span></a>
+                <a onclick="showSection(event, 'management')"><i class="bi bi-arrow-right-circle"></i><span>Profile
+                    Management Overview</span></a>
+              </div>
+            </div><!-- End Services List -->
+
+            <div class="service-box">
+              <h4>Download Apps</h4>
+              <div class="download-catalog">
+
+                <a href="https://play.google.com/store/apps/details?id=com.karmas.android" target="_blank"><i class="bi bi-phone"></i><span>Shayaka App</span></a>
+                
+                <a href="https://play.google.com/store/apps/details?id=com.karmas.android" target="_blank"><i class="bi bi-phone"></i><span>NGOs App</span></a>
+              </div>
+            </div><!-- End Services List -->
+
+            <div class="help-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-headset help-icon"></i>
+              <h4>Have a Question?</h4>
+              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i>
+                <span>+91-8356840131</span>
+              </p>
+              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a
+                  href="mailto:supportteam@karmas.in.net">supportteam@karmas.in.net</a></p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 ps-lg-5 content-section" id="home" style="display: block;" data-aos="fade-up"
+            data-aos-delay="200">
+            <img src="assets/Website NGO Side/Home Screen 12353.webp" alt="" class="img-fluid services-img">
+            <h3> Dashboard Overview </h3>
+            <h3>
+              Features
+            </h3>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Total Requests: Displays the cumulative number of requests
+                  received by the NGO.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>New Requests: Highlights recently submitted requests
+                  requiring attention.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Rejected Requests: Tracks requests that were not
+                  approved.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Accepted Requests: Lists successfully approved and processed
+                  requests.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Donation Amount: Shows the total funds received through the
+                  platform.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Total Likes: Reflects user engagement and support for the
+                  NGO.
+                </span></li>
+              <h5> NGO Registration
+              </h5>
+              <li><i class="bi bi-check-circle"></i> <span>Easy Onboarding: NGOs can create an account and register by
+                  uploading:
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>NGO Logo: For branding and identification..</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>PAN Card: For verification purposes.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Unique Id of VO/NGO
+                  DARPAN Reg.
+                  Date Type of NGO *
+                  Registration No *
+                  City of Registration *
+                  State of Registration *
+                  Date of Registration (Society / Trust /Entity) *
+                  Address
+                  City *
+                  State *
+                  Telephone
+                  Mobile No *
+                  E-mail *
+                  Website Url
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Quick Submission: Streamlined form submission to join the
+                  Karmas platform.
+                </span></li>
+              <h5> User-Friendly Interface
+              </h5>
+              <p>
+                Clean and visually appealing design with
+              </p>
+              <li><i class="bi bi-check-circle"></i> <span>Tabs for easy navigation between sections.
+
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Prominent buttons for login, registration, and data uploads.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Mobile-Friendly Design: Optimized for quick access and
+                  usability on mobile devices.
+                </span></li>
+
+              <h5> Integration with Karmas Main Platform
+
+              </h5>
+              <p>
+                Seamless Connection NGOs can connect with the main Karmas application to :
+              </p>
+              <li><i class="bi bi-check-circle"></i> <span>Manage incoming requests.
+
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Track donations and engagement metrics.
+
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Respond to user inquiries efficiently.
+
+                </span></li>
+
+              <h5> Secure Access
+
+              </h5>
+
+              <li><i class="bi bi-check-circle"></i> <span>Login System: Ensures secure access to the NGO dashboard and
+                  data.
+
+
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Forgot Password Option: Simplifies account recovery.
+            </ul>
+
+            <h2>
+              Benefits for NGOs
+
+            </h2>
+            <p>
+              Centralized Management: Provides a single platform to manage requests, donations, and user interactions.
+            </p>
+
+            <p>Enhanced Visibility: Showcases NGO activities and encourages user engagement through likes and support
+              metrics.</p>
+
+            <p>Efficient Collaboration: Facilitates a strong connection with the Karmas main platform, ensuring
+              alignment with broader community goals.</p>
+
+            <p>Transparency: Promotes accountability by providing clear statistics on requests and donations.</p>
+
+
+          </div>
+          <div class="col-lg-8 ps-lg-5 content-section" id="requests" style="display: none;" data-aos="fade-up"
+            data-aos-delay="200">
+            <img src="assets/Website NGO Side/Request.webp" alt="" class="img-fluid services-img">
+            <h3> Requests Module Overview
+            </h3>
+            <h3>
+              Features
+            </h3>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>View Incoming Requests
+                  NGOs can see all requests submitted through the Karmas application in an organized manner.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Each request contains detailed user information,
+                  including:</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Request ID</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Sahayak Name and Phone Number</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Gender, Location, and City</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Status of the Request</span></li>
+              <h5>Manage Requests
+              </h5>
+              <li><i class="bi bi-check-circle"></i> <span>Accept Requests: NGOs can approve requests that meet the
+                  necessary criteria.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Reject Requests with a Reason: If a request does not
+                  qualify, NGOs can reject it while providing a valid reason, ensuring transparency. </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>PAN Card: For verification purposes.
+                </span></li>
+              <h5> Tabs for Request Filtering
+              </h5>
+
+              <li><i class="bi bi-check-circle"></i> <span>New Requests: View newly submitted requests awaiting
+                  action.
+
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Rejected Requests: Track previously rejected requests and
+                  their reasons.
+
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Accepted Requests: Monitor requests that have been
+                  successfully approved.
+                </span></li>
+
+              <h5> Actionable Insights
+              </h5>
+              <p>
+                Requests are presented with visual clarity, showcasing:
+              </p>
+              <li><i class="bi bi-check-circle"></i> <span>A status badge (e.g., Accepted or Rejected).
+
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Request details and location data.
+
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>A "Show Actual Location" feature allows NGOs to identify
+                  the precise location of the Request.
+
+                </span></li>
+
+          </div>
+          <div class="col-lg-8 ps-lg-5 content-section" id="donation" style="display: none;" data-aos="fade-up"
+            data-aos-delay="200">
+            <img src="assets/Website NGO Side/Donation Details.webp" alt="" class="img-fluid services-img">
+            <h3> Total Donation Overview
+            </h3>
+            <h3>
+              Features
+            </h3>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Total Donation Amount: Displays the cumulative amount
+                  donated to the NGO.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Breakdown of Funds: </span></li>
+              <p>Released Amount: Funds approved and transferred to the NGO.</p>
+              <p> Held Amount: Funds currently withheld due to pending processes or review.</p>
+              <p> Platform Charges: Details about the charges deducted by the Karmas platform.</p>
+
+              <h5>Donation Transaction History
+              </h5>
+              <p>A detailed view of individual donations received, including:
+              </p>
+              <li><i class="bi bi-check-circle"></i> <span>Donor Name and Contact Details.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Date of Donation.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Amount Donated (with positive increments clearly
+                  indicated).
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>A scrollable list to track all donation-related
+                  activities..
+                </span></li>
+
+              <h5> Release Request Functionality
+              </h5>
+
+              <li><i class="bi bi-check-circle"></i> <span>Requests are sent directly to the Karmas platform for
+                  approval.
+
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>NGOs can monitor the status of their requests in
+                  real-time.
+
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Ensures that only eligible funds are available for
+                  release.
+                </span></li>
+              </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Automatically calculates and deducts any pending charges
+                  or withheld amounts.
+                </span></li>
+          </div>
+          <div class="col-lg-8 ps-lg-5 content-section" id="management" style="display: none;" data-aos="fade-up"
+            data-aos-delay="200">
+            <img src="assets/Website NGO Side/NGO Profile.webp" alt="" class="img-fluid services-img">
+            <h3>Profile Management Overview
+            </h3>
+            <h3>
+              Features
+            </h3>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Displays NGO details such as name, email, and contact number.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Provides a visual progress bar to indicate the completeness
+                  of the NGO profile. </span></li>
+
+              <h5>Edit Profile Information
+              </h5>
+              <p>Easy access to update essential NGO details:
+              </p>
+              <li><i class="bi bi-check-circle"></i> <span>Unique ID of VONGO.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>DARPAN Registration Date.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Type of NGO.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Act Name and Source of Funds.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>and Etc.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Upload functionality for NGO logo and other important
+                  documents.
+                </span></li>
+
+              <h5> Change Password:
+
+              </h5>
+              <p>Update account credentials securely by entering:
+              </p>
+              <li><i class="bi bi-check-circle"></i> <span>Old password.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>New password.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Confirmation of the new password.
+                </span></li>
+              </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Includes a "Forgot Password" option for quick recovery.
+          </div>
+
+        </div>
+
+      </div>
+  </main>
+
+  <!-- Contact Section -->
+<section id="contact" class="contact section light-background">
+  
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Get in touch, and I'll answer any queries you have.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row g-4 g-lg-5">
+      
+      <!-- Contact Info -->
+      <div class="col-lg-5">
+        <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+          <h3>Contact Info</h3>
+
+          <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <i class="bi bi-geo-alt"></i>
+            </div>
+            <div class="content">
+              <h4>Our Location</h4>
+              <p>Sion Bandra Link Road Near
+                Shiv Sena Shakha Dharavi Mumbai Maharashtra 400017,</p>
+            </div>
+          </div>
+
+          <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon-box">
+              <i class="bi bi-telephone"></i>
+            </div>
+            <div class="content">
+              <h4>Phone Number</h4>
+              <p>+91 8356840131</p>
+              <p>+91 7900187878</p>
+            </div>
+          </div>
+
+          <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <i class="bi bi-envelope"></i>
+            </div>
+            <div class="content">
+              <h4>Email Address</h4>
+              <p>supportteam@karmas.in.net
+              </p>
+            </div>
+          </div>
+
+          <!-- Small Google Map -->
+          <div class="info-item" data-aos="fade-up" data-aos-delay="600">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15079.095738036387!2d72.8500199!3d19.0402355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf26b3dfc1ff%3A0x4d5129b771e05fc!2sDharavi%2C%20Mumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1649923456789" 
+              width="200%" 
+              height="200" 
+              style="border:0; border-radius:10px; margin-top:10px;" 
+              allowfullscreen="" 
+              loading="lazy">
+            </iframe>
+          </div>
+          <!-- End Small Google Map -->
+
+        </div>
+      </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+              <h3>Get In Touch</h3>
+
+              <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="php-email-form" data-aos="fade-up"
+                data-aos-delay="200">
+                <input type="hidden" name="access_key" value="7499e2ee-8ec9-47fb-be53-fc67e47ca688">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+    
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <!-- <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Hic solutasetp</h4>
+          <ul>
+            <li><a href="#">Molestiae accusamus iure</a></li>
+            <li><a href="#">Excepturi dignissimos</a></li>
+            <li><a href="#">Suscipit distinctio</a></li>
+            <li><a href="#">Dilecta</a></li>
+            <li><a href="#">Sit quas consectetur</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Nobis illum</h4>
+          <ul>
+            <li><a href="#">Ipsam</a></li>
+            <li><a href="#">Laudantium dolorum</a></li>
+            <li><a href="#">Dinera</a></li>
+            <li><a href="#">Trodelas</a></li>
+            <li><a href="#">Flexo</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div> -->
+
+    <!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+
+  <div class="container footer-top">
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6 footer-info">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="assets/img/Group 13.svg" alt="">
+        </a>
+        <p>
+          Empowering communities through kindness and real impact.
+          Together, we create a future built on humanity and support.
+        </p>
+        <div class="social-links d-flex mt-4">
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        </div>
+        </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Request.html">Requests</a></li>
+          <li><a href="NGOs.html">NGOs</a></li>
+          <li><a href="Shayaka.html">Shayakas</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="terms-&-conditions.html" >Terms & Conditions</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-md-6 footer-contact text-center text-md-start">
+        <h4>Contact</h4>
+        <p>
+          Sion Bandra Link Road Near Shiv Sena Shakha Dharavi Mumbai Maharashtra 400017, <br><br>
+          <strong>Email:</strong> supportteam@karmas.in.net<br>
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+
+</footer>
+
+<!-- End Footer -->
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Karmas</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <B>Karmas Team</B>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const form = document.getElementById("contact-form");
+      const loading = form.querySelector(".loading");
+      const errorMessage = form.querySelector(".error-message");
+      const sentMessage = form.querySelector(".sent-message");
+  
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+  
+        // Show loading, hide messages
+        loading.style.display = "block";
+        errorMessage.style.display = "none";
+        errorMessage.textContent = "";
+        sentMessage.style.display = "none";
+  
+        const formData = new FormData(form);
+  
+        fetch(form.action, {
+          method: "POST",
+          body: formData,
+          headers: {
+            Accept: "application/json"
+          }
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            loading.style.display = "none";
+  
+            if (data.success) {
+              sentMessage.style.display = "block";
+              errorMessage.style.display = "none";
+              form.reset();
+            } else {
+              errorMessage.textContent = data.message || "Something went wrong!";
+              errorMessage.style.display = "block";
+              sentMessage.style.display = "none";
+            }
+          })
+          .catch(() => {
+            loading.style.display = "none";
+            errorMessage.textContent = "Network error. Please try again later.";
+            errorMessage.style.display = "block";
+            sentMessage.style.display = "none";
+          });
+      });
+    });
+  </script>
+  
+</body>
+
+</html>

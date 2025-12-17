@@ -1,0 +1,15 @@
+[{
+  "relation": [
+    "delegate_permission/common.handle_all_urls",      
+    "delegate_permission/common.get_login_creds"
+],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.karmas.android",
+    "sha256_cert_fingerprints": [
+      "51:8D:EF:ED:03:16:6D:5B:B1:5E:C8:12:8B:35:8A:78:7D:F0:CA:43:8C:BE:C7:B1:49:34:DC:1F:D1:59:F8:93",
+      "8C:1A:C8:5E:43:D1:C6:44:97:0F:6A:4F:4E:E1:47:92:B8:E6:59:09:3E:A6:1C:DF:06:8B:3A:7A:B1:06:21:0F",
+      "EF:5C:5C:CA:C5:53:BE:F2:B7:B8:49:9B:11:F2:5F:ED:63:A5:1B:7A:49:2D:C1:9A:DE:51:B6:58:01:1E:5E:FD"
+    ]
+  }
+}]

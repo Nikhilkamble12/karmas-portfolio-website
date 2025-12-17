@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>NGOs</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+
+  <link href="assets/img/Group 13.svg" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iLanding
+  * Template URL: https://bootstrapmade.com/ilanding-bootstrap-landing-page-template/
+  * Updated: Nov 12 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<!-- <script src="script.js"></script> -->
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div
+      class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="assets/img/Group 13.svg" alt="">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li class="dropdown">
+            <a href="#">Features<i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="service-details_Shayaka.html">Shayaka Application</a></li>
+              <li><a href="service-detailsNGO.html">NGO Application</a></li>
+            </ul>
+          </li>
+          <li><a href="Request.html">Requests</a></li>
+          <li><a href="Service.html">Service</a></li>
+          <li><a href="Shayaka.html">Shayakas</a></li>
+          <li><a href="NGOs.html">NGOs</a></li>
+          <li><a href="Contact_us.html">Contacts Us</a></li>
+          <li><a
+              href="Join_us.html">Join Us</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="https://ngo-dev-faefc.web.app/">Login</a>
+
+
+     <!--<a class="btn-getstarted" href="index.html#about">Add Request</a>--> 
+     
+     <script src="script.js"></script>
+
+    </div>
+  </header>
+
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+              <div class="">
+                <i class=></i>
+              </div>
+
+              <h1 class="mb-4">
+                <br>
+                NGOs <br>
+                <!-- <span class="accent-text">Vestibulum Ante</span> -->
+                </h2>
+
+                <p class="mb-4 mb-md-5">
+                  Empowering communities with seamless collaboration, Shayaka bridges individuals, NGOs, and
+                  compassionate contributors.
+                </p>
+
+                <div class="hero-buttons">
+
+
+                  </a>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
+              <img src="assets/img/NGOs.svg" alt="Hero Image" class="img-fluid">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+      </div>
+      </div>
+      </div>
+      </div>
+
+      </div>
+
+
+
+
+      <section>
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Parnter NGO </h2>
+        </div><!-- End Section Title -->
+
+
+        <!-- Search Bar -->
+        <div class="container d-flex justify-content-center mt-4" data-aos="fade-up" data-aos-delay="200">
+          <form class="search-bar d-flex align-items-center" id="ngo-search-form" onsubmit="return false;">
+            <input type="text" class="form-control" id="ngo-search-input" placeholder="Search NGO..." name="query" />
+            <button class="btn btn-primary ms-2" type="button" id="search-btn">Search</button>
+            <button class="btn btn-secondary ms-2" type="button" id="clear-btn" style="display: none;">Clear</button>
+          </form>
+        </div>
+
+        <!-- Styles for Search Bar -->
+        <style>
+          .search-bar {
+            max-width: 600px;
+            width: 100%;
+            position: relative;
+            transition: all 0.3s ease-in-out;
+          }
+
+          .search-bar input {
+            height: 50px;
+            border: 2px solid #004761;
+            border-radius: 30px;
+            padding: 0 20px;
+            font-size: 16px;
+            outline: none;
+            transition: all 0.3s ease;
+          }
+
+          .search-bar input:focus {
+            border-color: #6D5DE7;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          }
+
+          .search-bar button {
+            height: 50px;
+            background-color: #004761;
+            color: #fff;
+            border: none;
+            border-radius: 30px;
+            padding: 0 20px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+          }
+
+          .search-bar button:hover {
+            background-color: #6D5DE7;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          }
+        </style>
+      </section>
+
+
+      <!-- Features Section -->
+
+
+
+    </section><!-- /Services Section -->
+
+    <div class="container-xxl py-0.0" id="feature">
+      <div class="container py-0.0 px-lg-">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s"></div>
+        <div class="row g-4" id="ngo-container">
+          <!-- NGO cards will be dynamically inserted here -->
+          <div class="col-12 text-center">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="mt-2">Loading NGOs...</p>
+          </div>
+        </div>
+        
+        <!-- Pagination Controls -->
+        <div class="row mt-4">
+          <div class="col-12">
+            <div id="pagination-container"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      
+    </section>
+
+
+
+
+
+  </main>
+
+<!-- Contact Section -->
+<section id="contact" class="contact section light-background">
+  
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Get in touch, and I'll answer any queries you have.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row g-4 g-lg-5">
+      
+      <!-- Contact Info -->
+      <div class="col-lg-5">
+        <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+          <h3>Contact Info</h3>
+
+          <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <i class="bi bi-geo-alt"></i>
+            </div>
+            <div class="content">
+              <h4>Our Location</h4>
+              <p>Sion Bandra Link Road Near
+                Shiv Sena Shakha Dharavi Mumbai Maharashtra 400017,</p>
+            </div>
+          </div>
+
+          <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon-box">
+              <i class="bi bi-telephone"></i>
+            </div>
+            <div class="content">
+              <h4>Phone Number</h4>
+              <p>+91 8356840131</p>
+              <p>+91 7900187878</p>
+            </div>
+          </div>
+
+          <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <i class="bi bi-envelope"></i>
+            </div>
+            <div class="content">
+              <h4>Email Address</h4>
+              <p>supportteam@karmas.in.net
+              </p>
+            </div>
+          </div>
+
+          <!-- Small Google Map -->
+          <div class="info-item" data-aos="fade-up" data-aos-delay="600">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15079.095738036387!2d72.8500199!3d19.0402355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf26b3dfc1ff%3A0x4d5129b771e05fc!2sDharavi%2C%20Mumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1649923456789" 
+              width="200%" 
+              height="200" 
+              style="border:0; border-radius:10px; margin-top:10px;" 
+              allowfullscreen="" 
+              loading="lazy">
+            </iframe>
+          </div>
+          <!-- End Small Google Map -->
+
+        </div>
+      </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+              <h3>Get In Touch</h3>
+
+              <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="php-email-form" data-aos="fade-up"
+                data-aos-delay="200">
+                <input type="hidden" name="access_key" value="f71038d2-9598-4603-85bc-1df76b440733">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+    
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <!-- <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Hic solutasetp</h4>
+          <ul>
+            <li><a href="#">Molestiae accusamus iure</a></li>
+            <li><a href="#">Excepturi dignissimos</a></li>
+            <li><a href="#">Suscipit distinctio</a></li>
+            <li><a href="#">Dilecta</a></li>
+            <li><a href="#">Sit quas consectetur</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Nobis illum</h4>
+          <ul>
+            <li><a href="#">Ipsam</a></li>
+            <li><a href="#">Laudantium dolorum</a></li>
+            <li><a href="#">Dinera</a></li>
+            <li><a href="#">Trodelas</a></li>
+            <li><a href="#">Flexo</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div> -->
+
+    <!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+
+  <div class="container footer-top">
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6 footer-info">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="assets/img/Group 13.svg" alt="">
+        </a>
+        <p>
+          Empowering communities through kindness and real impact.
+          Together, we create a future built on humanity and support.
+        </p>
+        <div class="social-links d-flex mt-4">
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        </div>
+        </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Request.html">Requests</a></li>
+          <li><a href="NGOs.html">NGOs</a></li>
+          <li><a href="Shayaka.html">Shayakas</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="terms-&-conditions.html" >Terms & Conditions</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-md-6 footer-contact text-center text-md-start">
+        <h4>Contact</h4>
+        <p>
+          Sion Bandra Link Road Near Shiv Sena Shakha Dharavi Mumbai Maharashtra 400017, <br><br>
+          <strong>Email:</strong> supportteam@karmas.in.net<br>
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+
+</footer>
+
+<!-- End Footer -->
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Karmas</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <B>Karmas Team</B>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const form = document.getElementById("contact-form");
+      const loading = form.querySelector(".loading");
+      const errorMessage = form.querySelector(".error-message");
+      const sentMessage = form.querySelector(".sent-message");
+  
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+  
+        // Show loading, hide messages
+        loading.style.display = "block";
+        errorMessage.style.display = "none";
+        errorMessage.textContent = "";
+        sentMessage.style.display = "none";
+  
+        const formData = new FormData(form);
+  
+        fetch(form.action, {
+          method: "POST",
+          body: formData,
+          headers: {
+            Accept: "application/json"
+          }
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            loading.style.display = "none";
+  
+            if (data.success) {
+              sentMessage.style.display = "block";
+              errorMessage.style.display = "none";
+              form.reset();
+            } else {
+              errorMessage.textContent = data.message || "Something went wrong!";
+              errorMessage.style.display = "block";
+              sentMessage.style.display = "none";
+            }
+          })
+          .catch(() => {
+            loading.style.display = "none";
+            errorMessage.textContent = "Network error. Please try again later.";
+            errorMessage.style.display = "block";
+            sentMessage.style.display = "none";
+          });
+      });
+    });
+  </script>
+
+  <!-- NGO Dynamic Data Loading Script -->
+  <script>
+    // API endpoint with pagination
+    const API_BASE_URL = 'http://13.200.125.58:3000/api/v1/ngo_master/getAll';
+    const BASE_IMAGE_URL = 'http://13.200.125.58:3000/resources/'; // Base URL for images
+    const ITEMS_PER_PAGE = 10;
+    let currentPage = 1;
+    let totalNGOs = 0;
+
+    // Default placeholder image (base64 encoded)
+    const DEFAULT_LOGO = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgZmlsbD0iI2YwZjBmMCIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LXNpemU9IjE0IiBmb250LWZhbWlseT0iQXJpYWwiIGZpbGw9IiM5OTkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5OR08gTG9nbzwvdGV4dD48L3N2Zz4=';
+
+    // Function to create NGO card HTML
+    function createNGOCard(ngo, index) {
+      const delay = 100 + (index % 3) * 100;
+      const logoUrl = ngo.ngo_logo_path 
+        ? `${BASE_IMAGE_URL}${ngo.ngo_logo_path}` 
+        : DEFAULT_LOGO;
+      
+      const workingArea = ngo.city_name && ngo.state_name 
+        ? `${ngo.city_name}, ${ngo.state_name}` 
+        : 'Not specified';
+
+      return `
+        <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="${delay}">
+          <div class="feature-item bg-light rounded shadow-sm p-4 h-100 d-flex flex-column justify-content-between"
+            data-aos="zoom-in" data-aos-delay="${delay + 100}">
+
+            <!-- Image Section -->
+            <div class="d-flex justify-content-center mb-3" data-aos="fade-right" data-aos-delay="${delay + 200}">
+              <div class="rounded-4 overflow-hidden" style="width: 120px; height: 120px;">
+                <img src="${logoUrl}" 
+                     alt="${ngo.ngo_name}" 
+                     onerror="this.onerror=null; this.src='${DEFAULT_LOGO}';"
+                     style="width: 100%; height: 100%; object-fit: cover;">
+              </div>
+            </div>
+
+            <!-- Text Content -->
+            <div class="text-center mb-3">
+              <h5 class="fw-bold mb-2">NGO Name:</h5>
+              <p class="text-muted mb-3 fs-5">${ngo.ngo_name}</p>
+            </div>
+
+            <div class="row text-start gx-2 gy-2 mb-3">
+              <div class="col-12">
+                <div class="rounded p-2 bg-secondary bg-opacity-10">
+                  <small class="text-muted">Total Completed Requests:</small>
+                  <h6 class="fw-bold mb-0 d-inline-block">${ngo.total_request_completed || 0}</h6>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="rounded p-2 bg-secondary bg-opacity-10">
+                  <small class="text-muted">Total Assigned Requests:</small>
+                  <h6 class="fw-bold mb-0 d-inline-block">${ngo.total_request_assigned || 0}</h6>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="rounded p-2 bg-secondary bg-opacity-10">
+                  <small class="text-muted">Location:</small>
+                  <h6 class="fw-bold mb-0 d-inline-block">${workingArea}</h6>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="rounded p-2 bg-secondary bg-opacity-10">
+                  <small class="text-muted">Total Likes:</small>
+                  <h6 class="fw-bold mb-0 d-inline-block">
+                    <span class="text-danger ms-2">
+                      <i class="bi bi-heart-fill me-1"></i>${ngo.total_ngo_likes || 0}
+                    </span>
+                  </h6>
+                </div>
+              </div>
+            </div>
+
+            <!-- CTA Button -->
+            <div class="mt-auto text-center">
+              <a href="${ngo.website_url || '#'}" 
+                 target="${ngo.website_url ? '_blank' : '_self'}"
+                 class="btn d-flex align-items-center justify-content-center w-100"
+                 style="background-color: #004761; color: white;">
+                <img src="assets/img/Logo Here.svg" alt="" style="width: 20px; height: 20px; margin-right: 5px;">
+                ${ngo.website_url ? 'Visit NGO Website' : 'View Details'}
+              </a>
+            </div>
+
+          </div>
+        </div>
+      `;
+    }
+
+    // Store all NGOs for filtering
+    let allNGOs = [];
+
+    // Function to render NGO cards
+    function renderNGOs(ngos) {
+      const container = document.getElementById('ngo-container');
+      
+      if (ngos.length > 0) {
+        container.innerHTML = '';
+        ngos.forEach((ngo, index) => {
+          container.innerHTML += createNGOCard(ngo, index);
+        });
+        
+        // Reinitialize AOS animations if available
+        if (typeof AOS !== 'undefined') {
+          AOS.refresh();
+        }
+      } else {
+        container.innerHTML = `
+          <div class="col-12 text-center">
+            <div class="alert alert-warning" role="alert">
+              <i class="bi bi-search me-2"></i>
+              No NGOs found matching your search criteria.
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    // Function to filter NGOs based on search query
+    function filterNGOs(query) {
+      if (!query || query.trim() === '') {
+        return allNGOs;
+      }
+      
+      const searchTerm = query.toLowerCase().trim();
+      return allNGOs.filter(ngo => {
+        const name = (ngo.ngo_name || '').toLowerCase();
+        const city = (ngo.city_name || '').toLowerCase();
+        const state = (ngo.state_name || '').toLowerCase();
+        const ngoType = (ngo.ngo_type_name || '').toLowerCase();
+        const address = (ngo.address || '').toLowerCase();
+        
+        return name.includes(searchTerm) || 
+               city.includes(searchTerm) || 
+               state.includes(searchTerm) ||
+               ngoType.includes(searchTerm) ||
+               address.includes(searchTerm);
+      });
+    }
+
+    // Function to fetch and render NGO data with pagination
+    async function loadNGOs(page = 1) {
+      const container = document.getElementById('ngo-container');
+      currentPage = page;
+      const offset = (page - 1) * ITEMS_PER_PAGE;
+      
+      try {
+        // Show loading spinner
+        container.innerHTML = `
+          <div class="col-12 text-center">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="mt-2">Loading NGOs...</p>
+          </div>
+        `;
+        
+        const response = await fetch(`${API_BASE_URL}?limit=${ITEMS_PER_PAGE}&offset=${offset}`, {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+          }
+        });
+        const result = await response.json();
+        
+        if (result.success && result.data && result.data.length > 0) {
+          allNGOs = result.data;
+          totalNGOs = result.total || result.data.length;
+          renderNGOs(allNGOs);
+          updatePagination();
+        } else {
+          container.innerHTML = `
+            <div class="col-12 text-center">
+              <div class="alert alert-info" role="alert">
+                <i class="bi bi-info-circle me-2"></i>
+                No NGOs found at the moment. Please check back later.
+              </div>
+            </div>
+          `;
+          updatePagination();
+        }
+      } catch (error) {
+        console.error('Error loading NGOs:', error);
+        container.innerHTML = `
+          <div class="col-12 text-center">
+            <div class="alert alert-danger" role="alert">
+              <i class="bi bi-exclamation-triangle me-2"></i>
+              Failed to load NGOs. Please try again later.
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    // Function to update pagination controls
+    function updatePagination() {
+      const paginationContainer = document.getElementById('pagination-container');
+      const totalPages = Math.ceil(totalNGOs / ITEMS_PER_PAGE);
+      
+      if (totalPages <= 1) {
+        paginationContainer.innerHTML = '';
+        return;
+      }
+      
+      let paginationHTML = '<nav aria-label="NGO pagination"><ul class="pagination justify-content-center">';
+      
+      // Previous button
+      paginationHTML += `
+        <li class="page-item ${currentPage === 1 ? 'disabled' : ''}">
+          <a class="page-link" href="#" onclick="loadNGOs(${currentPage - 1}); return false;">
+            <i class="bi bi-chevron-left"></i> Previous
+          </a>
+        </li>
+      `;
+      
+      // Page numbers
+      const maxVisiblePages = 5;
+      let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+      let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+      
+      if (endPage - startPage < maxVisiblePages - 1) {
+        startPage = Math.max(1, endPage - maxVisiblePages + 1);
+      }
+      
+      if (startPage > 1) {
+        paginationHTML += `<li class="page-item"><a class="page-link" href="#" onclick="loadNGOs(1); return false;">1</a></li>`;
+        if (startPage > 2) {
+          paginationHTML += '<li class="page-item disabled"><span class="page-link">...</span></li>';
+        }
+      }
+      
+      for (let i = startPage; i <= endPage; i++) {
+        paginationHTML += `
+          <li class="page-item ${i === currentPage ? 'active' : ''}">
+            <a class="page-link" href="#" onclick="loadNGOs(${i}); return false;">${i}</a>
+          </li>
+        `;
+      }
+      
+      if (endPage < totalPages) {
+        if (endPage < totalPages - 1) {
+          paginationHTML += '<li class="page-item disabled"><span class="page-link">...</span></li>';
+        }
+        paginationHTML += `<li class="page-item"><a class="page-link" href="#" onclick="loadNGOs(${totalPages}); return false;">${totalPages}</a></li>`;
+      }
+      
+      // Next button
+      paginationHTML += `
+        <li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">
+          <a class="page-link" href="#" onclick="loadNGOs(${currentPage + 1}); return false;">
+            Next <i class="bi bi-chevron-right"></i>
+          </a>
+        </li>
+      `;
+      
+      paginationHTML += '</ul></nav>';
+      paginationContainer.innerHTML = paginationHTML;
+      
+      // Scroll to top of NGO section
+      document.getElementById('ngo-container').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // Search functionality
+    function setupSearch() {
+      const searchInput = document.getElementById('ngo-search-input');
+      const searchBtn = document.getElementById('search-btn');
+      const clearBtn = document.getElementById('clear-btn');
+      const paginationContainer = document.getElementById('pagination-container');
+      
+      // Search on button click
+      searchBtn.addEventListener('click', () => {
+        const query = searchInput.value;
+        const filtered = filterNGOs(query);
+        renderNGOs(filtered);
+        paginationContainer.innerHTML = ''; // Hide pagination when searching
+        
+        if (query.trim() !== '') {
+          clearBtn.style.display = 'inline-block';
+        }
+      });
+      
+      // Search on Enter key
+      searchInput.addEventListener('keyup', (e) => {
+        if (e.key === 'Enter') {
+          const query = searchInput.value;
+          const filtered = filterNGOs(query);
+          renderNGOs(filtered);
+          paginationContainer.innerHTML = ''; // Hide pagination when searching
+          
+          if (query.trim() !== '') {
+            clearBtn.style.display = 'inline-block';
+          }
+        }
+      });
+      
+      // Clear search
+      clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        clearBtn.style.display = 'none';
+        loadNGOs(currentPage); // Reload current page data
+      });
+      
+      // Real-time search (optional - remove if you want only button/Enter search)
+      searchInput.addEventListener('input', (e) => {
+        const query = e.target.value;
+        if (query.trim() === '') {
+          clearBtn.style.display = 'none';
+          loadNGOs(currentPage); // Reload current page data
+        }
+      });
+    }
+
+    // Load NGOs when page is ready
+    document.addEventListener('DOMContentLoaded', () => {
+      loadNGOs();
+      setupSearch();
+    });
+  </script>
+  
+</body>
+
+</html>
