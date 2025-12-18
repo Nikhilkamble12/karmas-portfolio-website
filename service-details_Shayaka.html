@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Service Details </title>
+  <meta name="Karmas" content="">
+  <meta name="Karmas.in.net" content="">
+
+  <!-- Favicons -->
+
+  <link href="assets/img/Group 13.svg" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iLanding
+  * Template URL: https://bootstrapmade.com/ilanding-bootstrap-landing-page-template/
+  * Updated: Nov 12 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="service-details-page">
+  <script>
+    function showSection(event, sectionId) {
+      event.preventDefault();
+
+      // Hide all sections
+      const sections = document.querySelectorAll('.content-section');
+      sections.forEach(section => {
+        section.style.display = 'none';
+      });
+
+      // Remove active class from all links
+      const links = document.querySelectorAll('.services-list a');
+      links.forEach(link => {
+        link.classList.remove('active');
+      });
+
+      // Show the selected section
+      const activeSection = document.getElementById(sectionId);
+      activeSection.style.display = 'block';
+
+      // Add active class to clicked link
+      event.currentTarget.classList.add('active');
+    }
+
+  </script>
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div
+      class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="assets/img/Group 13.svg" alt="">
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li class="dropdown">
+            <a href="#">Features<i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul class="dropdown-menu">
+                <li><a href="service-details_Shayaka.html">Shayaka Application</a></li>
+                <li><a href="service-detailsNGO.html">NGO Application</a></li>
+        </li>        
+            </ul>
+          </li>
+          <!-- <li><a href="#services">Services</a></li> -->
+          <li><a href="Request .html">Requests</a></li>
+          <li><a href="Service.html">Service</a></li>
+          <li><a href="Shayaka.html">Shayakas</a></li>
+          <li><a href="NGOs.html">NGOs</a></li>
+           <li><a href="Contact_us.html">Contacts Us</a></li>
+           <li><a href="Join_us.html" target="_blank">Join Us</a></li>
+          <!-- <li class="dropdown"><a href="#"><span></span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span></span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Shayaka application feature</a></li>
+                  <li><a href="#">NGO application feature</a></li>
+                  
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul> -->
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+         
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="https://ngo-dev-faefc.web.app/">Login</a>
+
+
+     <!--<a class="btn-getstarted" href="index.html#about">Add Request</a>--> 
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+
+
+              <h1 class="mb-4 animated-text">
+                Explore the Shayaka App on <span class="blue-text">Karmas</span>. <br>
+                <!-- <span class="accent-text">Vestibulum Ante</span> -->
+              </h1>
+
+              <style>
+                .blue-text {
+                  color: #004761;
+                  /* Bootstrap Primary Blue */
+                  font-weight: bold;
+                  /* Optional: Make it bold for emphasis */
+                }
+
+                /* Keep existing animation for h1 */
+                @keyframes text-animation {
+                  0% {
+                    opacity: 0;
+                    transform: translateY(20px);
+                  }
+
+                  50% {
+                    opacity: 0.5;
+                    transform: translateY(10px);
+                  }
+
+                  100% {
+                    opacity: 1;
+                    transform: translateY(0);
+                  }
+                }
+
+                .animated-text {
+                  font-size: 2.5rem;
+                  font-weight: bold;
+                  animation: text-animation 1.5s ease-in-out;
+                  display: inline-block;
+                }
+              </style>
+
+              <p class="mb-6 mb-md-9">
+
+
+                Learn about their mission and the lives they’ve impacted.
+                Discover inspiring stories and how you can get involved.
+                Join us in making a difference, one step at a time.
+
+                <strong>Download this app to get started</strong>
+              <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary me-0 me-sm-2 mx-1">
+                  <i class="bi bi-cloud-download animated-icon me-2"></i> <!-- Cloud Download Icon -->
+                  Download App
+                </a>
+              </div>
+
+              <style>
+                /* Increase the size of the icon */
+                .animated-icon {
+                  font-size: 1.5rem;
+                  /* Adjust to desired size */
+                  animation: bounce 2s infinite;
+                  /* Bounce animation remains */
+                  display: inline-block;
+                }
+
+                /* Bounce Animation */
+                @keyframes bounce {
+
+                  0%,
+                  20%,
+                  50%,
+                  80%,
+                  100% {
+                    transform: translateY(0);
+                    /* No movement */
+                  }
+
+                  40% {
+                    transform: translateY(-10px);
+                    /* Bounce up */
+                  }
+
+                  60% {
+                    transform: translateY(-5px);
+                    /* Slightly lower bounce */
+                  }
+                }
+
+                /* Optional: Add hover effect for the button */
+                .btn-primary:hover .animated-icon {
+                  animation: bounce 0.8s infinite;
+                  /* Faster bounce on hover */
+                }
+              </style>
+
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
+              <img src="assets/img/Service Shayaka .svg" alt="Hero Image" class="img-fluid">
+
+    </section>
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="service-box">
+              <h4>Features</h4>
+              <div class="services-list">
+                <a class="active" onclick="showSection(event, 'home')"><i
+                    class="bi bi-arrow-right-circle"></i><span>Home Overview
+                  </span></a>
+                <a onclick="showSection(event, 'request')"><i class="bi bi-arrow-right-circle"></i><span>Request and
+                    Request Tracking Overview</span></a>
+
+                <a onclick="showSection(event, 'Search and Notification overview')"><i
+                    class="bi bi-arrow-right-circle"></i><span>
+                    Search and Notification overview </span></a>
+
+                    <a onclick="showSection(event, 'NGOs Details Overview')"><i
+                      class="bi bi-arrow-right-circle"></i><span>
+                        NGOs Details Overview </span></a>
+
+                        <a onclick="showSection(event, 'Scoreboard Overview')"><i
+                          class="bi bi-arrow-right-circle"></i><span>
+                            Scoreboard Overview </span></a>
+
+                            <a onclick="showSection(event, 'Reward Overview')"><i
+                              class="bi bi-arrow-right-circle"></i><span>
+                                Reward Overview </span></a>
+
+                                <a onclick="showSection(event, 'Chats & Group Overview')"><i
+                                  class="bi bi-arrow-right-circle"></i><span>
+                                    Chats Overview </span></a>
+
+                                    <a onclick="showSection(event, 'Profile Overview ')"><i
+                                      class="bi bi-arrow-right-circle"></i><span>
+                                        Profile Overview  </span></a>
+
+                                        <a onclick="showSection(event, 'She is Safe Overview')"><i
+                                          class="bi bi-arrow-right-circle"></i><span>
+                                            She is Safe Overview </span></a>
+
+
+                                        <a onclick="showSection(event, 'Settings Overview ')"><i
+                                          class="bi bi-arrow-right-circle"></i><span>
+                                            Settings Overview  </span></a>
+
+                                        <a onclick="showSection(event, 'Video-Information')"><i
+                                          class="bi bi-arrow-right-circle"></i><span>
+                                            Video Information  </span></a>
+              </div>
+
+            </div><!-- End Services List -->
+
+            <div class="service-box">
+              <h4>Download Apps</h4>
+              <div class="download-catalog">
+                <a href="#"><i class="bi bi-phone"></i><span>Shayaka App</span></a>
+                <a href="#"><i class="bi bi-phone"></i><span>NGOs App</span></a>
+              </div>
+            </div><!-- End Services List -->
+
+            <div class="help-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-headset help-icon"></i>
+              <h4>Have a Question?</h4>
+              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i>
+                <span>+91-8356840131</span>
+              </p>
+              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a
+                  href="mailto:contact@example.com">Nikhilkamble096@gmail.com</a></p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 ps-lg-5 content-section" style="display: block;" data-aos="fade-up" data-aos-delay="200"
+            id="home">
+            <img src="assets/SS karmas Website/HomeOverview.webp" alt="" class="img-fluid services-img">
+            <!-- <img src="assets/img/HomeOverview-Home.gif" alt="" class="img-fluid services-img" style="width: 100%; height: auto;"> -->
+            <h3> Dashboard Overview</h3>
+            <h3>
+              Features
+            </h3>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span> User Greeting and Information</span></li>
+              <p>Personalized greeting with the user's name and profile picture, making the app feel welcoming and
+                customized.
+              </p>
+              <p> A Current Score display shows the user’s contribution or engagement points, motivating them to
+                increase their participation.
+              </p>
+              <li><i class="bi bi-check-circle"></i> <span> Photo/Video Upload Options:</span></li>
+              <p>Users can upload photos or videos to share stories, requests, or updates on ongoing campaigns, enabling
+                visual communication and transparency.</p>
+
+              <li><i class="bi bi-check-circle"></i> <span>Posts Feed</span></li>
+
+              <p>Displays posts from other users, NGOs, or communities, including impactful stories, requests, or
+                project updates.</p>
+              <p>Posts are interactive, allowing users to like , comment , or share directly from the feed.</p>
+
+              <li><i class="bi bi-check-circle"></i> <span>Request Detail </span></li>
+
+              <p> Each post includes specific information such as the request date, facilitator name (Sahayak), and the
+                NGO involved, ensuring transparency and accountability.</p>
+
+
+              <li><i class="bi bi-check-circle"></i> <span>Verified Request Badge </span></li>
+              <p> Posts with a blue checkmark indicate verified Request or contributors, building trust within the
+                Platform . </p>
+
+              <li><i class="bi bi-check-circle"></i> <span>Bottom Navigation Bar
+                </span></li>
+              <p>Home: Shayaka to the dashboard to view posts, videos and their score.
+              </p>
+              <p>Search: Allows Shayaka to find NGOs,, or other shayaka</p>
+              <p>Add (+): A quick-access button to submit new requests or contribute.
+              </p>
+              <p>Notifications: Displays alerts for updates, new posts, or activity on the Shayaka contributions.</p>
+              <p>Profile : Sahayaks can view their Followers, Following, Score, and Requests he Can Edit also in one
+                place.
+              </p>
+              <p>Chats: Facilitates direct messaging, </p>
+
+              <li><i class="bi bi-check-circle"></i> <span>Multimedia Posts</span></li>
+              <p>Posts contain images and videos to provide context and bring stories to life, encouraging users to
+                engage with meaningful content.
+              </p>
+
+              <li><i class="bi bi-check-circle"></i> <span>Interactive Icons</span></li>
+              <p>Users can interact with posts using:</p>
+              <p>Heart Icon To like a post.</p>
+              <p>Chat Bubble Icon To comment on or discuss a post. </p>
+              <p>Send Icon To share the post with others or promote it further.</p>
+
+          </div>
+
+          <div class="col-lg-8 ps-lg-5 content-section" style="display: none;" data-aos="fade-up" data-aos-delay="200"
+          id="Video-Information">
+          <video class="img-fluid services-img" controls>
+            <source src="assets/videos/WhatsApp Video 2025-04-10 at 03.10.35_e7194928.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <h3>
+            Features
+          </h3>
+          <ul>
+            <li><i class="bi bi-check-circle"></i> <span> User Greeting and Information</span></li>
+            <p>Personalized greeting with the user's name and profile picture, making the app feel welcoming and
+              customized.
+            </p>
+            <p> A Current Score display shows the user’s contribution or engagement points, motivating them to
+              increase their participation.
+            </p>
+            <li><i class="bi bi-check-circle"></i> <span> Photo/Video Upload Options:</span></li>
+            <p>Users can upload photos or videos to share stories, requests, or updates on ongoing campaigns, enabling
+              visual communication and transparency.</p>
+
+            <li><i class="bi bi-check-circle"></i> <span>Posts Feed</span></li>
+
+            <p>Displays posts from other users, NGOs, or communities, including impactful stories, requests, or
+              project updates.</p>
+            <p>Posts are interactive, allowing users to like , comment , or share directly from the feed.</p>
+
+            <li><i class="bi bi-check-circle"></i> <span>Request Detail </span></li>
+
+            <p> Each post includes specific information such as the request date, facilitator name (Sahayak), and the
+              NGO involved, ensuring transparency and accountability.</p>
+
+
+            <li><i class="bi bi-check-circle"></i> <span>Verified Request Badge </span></li>
+            <p> Posts with a blue checkmark indicate verified Request or contributors, building trust within the
+              Platform . </p>
+
+            <li><i class="bi bi-check-circle"></i> <span>Bottom Navigation Bar
+              </span></li>
+            <p>Home: Shayaka to the dashboard to view posts, videos and their score.
+            </p>
+            <p>Search: Allows Shayaka to find NGOs,, or other shayaka</p>
+            <p>Add (+): A quick-access button to submit new requests or contribute.
+            </p>
+            <p>Notifications: Displays alerts for updates, new posts, or activity on the Shayaka contributions.</p>
+            <p>Profile : Sahayaks can view their Followers, Following, Score, and Requests he Can Edit also in one
+              place.
+            </p>
+            <p>Chats: Facilitates direct messaging, </p>
+
+            <li><i class="bi bi-check-circle"></i> <span>Multimedia Posts</span></li>
+            <p>Posts contain images and videos to provide context and bring stories to life, encouraging users to
+              engage with meaningful content.
+            </p>
+
+            <li><i class="bi bi-check-circle"></i> <span>Interactive Icons</span></li>
+            <p>Users can interact with posts using:</p>
+            <p>Heart Icon To like a post.</p>
+            <p>Chat Bubble Icon To comment on or discuss a post. </p>
+            <p>Send Icon To share the post with others or promote it further.</p>
+
+        </div>
+
+
+          <div class="col-lg-8 ps-lg-5 content-section" data-aos="fade-up" data-aos-delay="200" style="display: none;"
+            id="request">
+            <img src="assets/SS karmas Website/Request Tracking 12345.webp" alt="" class="img-fluid services-img">
+            <h3> Request and Request Tracking Overview
+            </h3>
+            <h3>
+              Features
+            </h3>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Displays all requests submitted by the user in a categorized
+                  format.
+                  Users can filter requests based on their status:</span></li>
+              <p>All: Lists all requests.
+              </p>
+              <p>In Progress: Shows requests currently being processed.
+              </p>
+              <p>Completed: Displays successfully fulfilled requests.
+              </p>
+              <p>Rejected: Includes requests that have been denied.
+              </p>
+              <h5>Search Functionality
+              </h5>
+              <p>Users can easily search for specific requests using keywords such as
+              </p>
+              <li><i class="bi bi-check-circle"></i> <span>Request name.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Request category.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Status.
+                </span></li>
+              <h5> Detailed Request Information
+              </h5>
+              <p>Users can view complete details of each request, including </p>
+
+              <li><i class="bi bi-check-circle"></i> <span>Requester's name, age, and gender.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Unique tracking ID (Sahayak Number).
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Contact details, such as email and address.
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Status updates with color-coded badges:
+                </span></li>
+              <P>Green for "Completed."</P>
+              <P>Yellow for "In Progress."</P>
+              <P>Red for "Rejected."</P>
+
+              <h5> Acknowledgment Action
+              </h5>
+              <li><i class="bi bi-check-circle"></i> <span>A “Thank You” button for users to acknowledge or close
+                  completed requests.
+                </span></li>
+              <h5> Request History
+              </h5>
+
+              <li><i class="bi bi-check-circle"></i> <span>A section that allows users to view past requests and their
+                  outcomes.
+
+                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Organized in a card layout with summary details like
+
+                </span></li>
+
+              </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Name, age, category, and status
+                </span></li>
+          </div>
+
+          <div class="col-lg-8 ps-lg-5 content-section" data-aos="fade-up" data-aos-delay="200" style="display: none;"
+            id="Search and Notification overview">
+           <img src="assets/SS karmas Website/Search and Notification.webp" alt="" class="img-fluid services-img">
+            <h3> Search and Notification overview
+            </h3>
+            <h3>
+              Features
+            </h3>
+            <ul>
+              <h5>Search for Other User</h5>
+              <li><i class="bi bi-check-circle"></i> 
+                <span>Users can search for other individuals by entering a name or keyword in the search bar.
+                </span>
+
+              <li><i class="bi bi-check-circle"></i> <span>Search results are displayed with user details, such as profile picture, name, and scores.
+
+                </span></li>
+              <h5> View User Details:
+              </h5>
+
+              <li><i class="bi bi-check-circle"></i> <span>Users can view individual profiles, including their score, followers, and other relevant information.
+
+                </span></li>
+
+                <h5>Follow and Connect:
+                </h5>
+  
+                <li><i class="bi bi-check-circle"></i> <span>Users can send follow requests by clicking the "Follow" button.
+                  <li><i class="bi bi-check-circle"></i> <span>Accepted connections are updated in real-time, fostering networking and collaboration.
+                  </span></li>
+                    <h5>Notification:
+                    </h5>
+
+                      <li><i class="bi bi-check-circle"></i> <span>Users can track their follow requests under the notifications section, Notifications are categorized as Unread, Read, and All for better organization.
+                        <li><i class="bi bi-check-circle"></i> <span>Users receive updates such as follow requests, shared posts, or reactions to their content, all displayed in an intuitive and categorized manner.
+                  </span></li>
+
+                </div>
+
+
+                  <div class="col-lg-8 ps-lg-5 content-section" data-aos="fade-up" data-aos-delay="200" style="display: none;"
+            id="NGOs Details Overview">
+           <img src="assets/SS karmas Website/NGOs Details.webp" alt="" class="img-fluid services-img">
+            <h3> NGO Details Overview
+            </h3>
+            <h3>
+              Features
+            </h3>
+            <ul>
+              <h5>Search and Discover NGOs:</h5>
+              <li><i class="bi bi-check-circle"></i> 
+                <span>Users can click on an NGO to view detailed information:
+                </span>
+
+              <li><i class="bi bi-check-circle"></i> <span>Name of the NGO.
+                </span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Type (e.g., Trust).
+                </span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Unique identification numbers (like VO/NGO ID and Registration No.).
+                </span></li>
+                <li><i class="bi bi-check-circle"></i> <span>City of registration.
+                </span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Number of accepted requests.
+                </span></li>
+
+              <h5> Engagement Features:
+              </h5>
+
+              <li><i class="bi bi-check-circle"></i> <span>Users can like an NGO to show their support.
+
+                </span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Users can donate to the NGO.
+
+                </span></li>
+
+                <li><i class="bi bi-check-circle"></i> <span>Options to follow and connect with NGOs for updates and collaboration.
+
+                </span></li>
+                
+          </div>
+
+          <div class="col-lg-8 ps-lg-5 content-section" data-aos="fade-up" data-aos-delay="200" style="display: none;"
+            id="Scoreboard Overview">
+           <img src="assets/SS karmas Website/Score Board-1.webp" alt="" class="img-fluid services-img">
+            <h3>Scoreboard Overview
+            </h3>
+            <h3>
+              Features
+            </h3>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> 
+                <span>Sahayaks can check their own rank and score.
+                </span></li>
+
+              <li><i class="bi bi-check-circle"></i> <span>Top scorers are highlighted with their scores on a leaderboard.
+                </span></li>
+
+              <h5> History of Scores:
+              </h5>
+
+              <li><i class="bi bi-check-circle"></i> <span>Users can access historical data showing their past scores.
+
+                </span></li>
+                <li><i class="bi bi-check-circle"></i> <span>It also includes details of when and how the scores were earned.
+
+                  
+                </span></li>
+
+
+              <h5>Top Scores and Personal Scorer History:
+
+              </h5>
+
+            </span></li>
+            <li><i class="bi bi-check-circle"></i> <span>A dual-tab interface where users can switch between the "Top Scorers" (current leaders) and "Your Scorers" their specific history or subordinates' performances
+
+              
+            </span></li>
+                
+          </div>
+
+          <div class="col-lg-8 ps-lg-5 content-section" data-aos="fade-up" data-aos-delay="200" style="display: none;"
+            id="Reward Overview">
+           <img src="assets/SS karmas Website/Reward.webp" alt="" class="img-fluid services-img">
+            <h3>Reward Overview
+            <h3>
+              Features
+            </h3>
+            <ul>
+
+              <h5>1. How get reward
+              </h5>
+              <li><i class="bi bi-check-circle"></i> 
+                <span>Users submit a help request (medical, educational, farmer aid, etc.)
+                </span></li>
+
+                <li><i class="bi bi-check-circle"></i> 
+                  <span>Each approved request (post-Karma’s verification) earns 10 score points.
+                  </span></li>
+
+                  <li><i class="bi bi-check-circle"></i> 
+                    <span>Target Example: 100 points = 10 approved requests.
+                    </span></li>
+
+                    <li><i class="bi bi-check-circle"></i> 
+                      <span>Fraudulent/incomplete requests are rejected (0 points).
+                      </span></li>
+  
+
+              
+              <li><i class="bi bi-check-circle"></i> 
+                <span>Reward History: Displays a list of past rewards earned by the user, including details like gift cards for platforms such as Flipkart and Swiggy etc.
+                </span></li>
+
+              <li><i class="bi bi-check-circle"></i> <span>Reward Tracking: Users can see their total scores and total rewards and track their progress toward the next reward milestone.
+
+                </span></li>
+
+                <li><i class="bi bi-check-circle"></i> <span>Reward Tracking: Users can see their total scores and total rewards and track their progress toward the next reward milestone.
+
+                </span></li>
+
+          </div>
+
+
+          <div class="col-lg-8 ps-lg-5 content-section" data-aos="fade-up" data-aos-delay="200" style="display: none;"
+            id="She is Safe Overview">
+           <img src="assets/SS karmas Website/She be will Safe.webp" alt="" class="img-fluid services-img">
+            <h3>She is Safe Overview
+            <h3>
+              Features
+            </h3>
+            <p>The She is Safe Module is a comprehensive safety feature specifically designed for the protection of girls and women. This module ensures swift assistance during emergencies with the following functionalities:</p>   
+            <ul>
+
+              <h5> Emergency SOS Button:
+              </h5>
+              <li><i class="bi bi-check-circle"></i> 
+                <span>Press the SOS button to instantly share your live location with the Karmas Karmas Will Verify your Emergency and Shares nearest police station and NGOs that work for women’s safety.
+                </span></li>
+
+              <li><i class="bi bi-check-circle"></i> 
+                <span>Ensures immediate support during critical situations.
+                </span></li>
+
+              <h5> On-Screen Widget:</h5>
+
+                <li><i class="bi bi-check-circle"></i> 
+                  <span>TQuickly access the SOS button through a widget displayed on your mobile screen for instant help.
+                  </span></li>
+
+              <h5>Add Trusted Contacts: </h5>
+                    <li><i class="bi bi-check-circle"></i> 
+                      <span>Easily include friends, family, or Shayaka members as trusted contacts for emergency notifications.
+                      </span></li>
+
+              <p>This module empowers women with tools to enhance their safety and ensure immediate help is available whenever needed.
+              </p>
+                
+          </div>
+
+
+          <div class="col-lg-8 ps-lg-5 content-section" data-aos="fade-up" data-aos-delay="200" style="display: none;"
+            id="Chats & Group Overview">
+           <img src="assets/SS karmas Website/Chats & Group.webp" alt="" class="img-fluid services-img">
+            <h3>Chats & Group Overview 
+            <h3>
+              Features
+            </h3>
+            <ul>
+
+              <h5>One-to-One Chats
+              </h5>
+              <li><i class="bi bi-check-circle"></i> 
+                <span> Seamlessly communicate with friends, family, or colleagues in private conversations.
+                </span></li>
+                
+                <h5>Group Chats:
+                </h5>
+
+                <li><i class="bi bi-check-circle"></i> 
+                  <span> Create and manage groups effortlessly. Collaborate, share updates, or chat with multiple people in a single place.
+                  </span></li>
+
+                  <h5>File Sharing :
+                  </h5>
+
+                  <li><i class="bi bi-check-circle"></i> 
+                    <span>Easily share files, documents, and multimedia directly in the chat.
+                    </span></li>
+
+                    <h5>Voice Notes & Video: 
+                    </h5>
+  
+
+                    <li><i class="bi bi-check-circle"></i> 
+                      <span>Send quick voice notes or share videos for a more personal touch.
+                      </span></li>
+
+                      <h5>Application Posts & Media
+                      </h5>
+              
+              <li><i class="bi bi-check-circle"></i> 
+                <span>Post and share application updates, videos, and more within your chat groups.
+
+                </span></li>
+
+          </div>
+
+         
+          <div class="col-lg-8 ps-lg-5 content-section" data-aos="fade-up" data-aos-delay="200" style="display: none;"
+          id="Profile Overview ">
+         <img src="assets/SS karmas Website/Profile.webp" alt="" class="img-fluid services-img">
+          <h3>Profile Overview  
+          <h3>
+            Features
+          </h3>
+          <ul>
+
+            <h5>See your profile picture, name, and background image, along with key metrics such as:
+
+            </h5>
+            <li><i class="bi bi-check-circle"></i> 
+              <span> Number of posts
+              </span></li>
+
+              <li><i class="bi bi-check-circle"></i> 
+                <span> Followers count
+                </span></li>
+
+                <li><i class="bi bi-check-circle"></i> 
+                  <span>Following count
+                  </span></li>
+
+                  <li><i class="bi bi-check-circle"></i> 
+                    <span>Score points
+                    </span></li>
+
+                    <li><i class="bi bi-check-circle"></i> 
+                      <span>Requests count
+                      </span></li>
+
+                      <h5>Manage Your Content:
+                      </h5>
+
+                      <li><i class="bi bi-check-circle"></i> 
+                        <span>Browse through your posts, photos, and videos conveniently categorized under separate tabs.
+                        </span></li>
+
+                        <h5>Edit Profile:
+                        </h5>
+  
+                        <li><i class="bi bi-check-circle"></i> 
+                          <span>Update your profile information, including profile picture and personal details, directly from this module.
+
+                          </span></li>
+
+
+                        <h5>Follow/Following List:
+                        </h5>
+  
+                        <li><i class="bi bi-check-circle"></i> 
+                          <span>Access your followers and following lists in an organized manner.
+                          </span></li>
+
+                          <li><i class="bi bi-check-circle"></i> 
+                            <span>Search for specific followers or followings using the built-in search bar.
+                            </span></li>
+                            <li><i class="bi bi-check-circle"></i> 
+                              <span>View details like profile pictures, names, and activity statuses.
+                              </span></li>
+    
+                              <span>Unfollow users with a single click.
+                              </span></li>
+                            </div>
+
+        <div class="col-lg-8 ps-lg-5 content-section" data-aos="fade-up" data-aos-delay="200" style="display: none;"
+          id="Settings Overview ">
+         <img src="assets/SS karmas Website/Setting.webp" alt="" class="img-fluid services-img">
+          <h3>Settings Overview 
+          <h3>
+            Features
+          </h3>
+          <ul>
+            <h5>
+                Account Info
+            </h5>
+            <li><i class="bi bi-check-circle"></i> 
+              <span> Update personal and delivery details for a seamless experience.
+              </span></li>
+
+                      <h5>Your Activity:
+                      </h5>
+
+                      <li><i class="bi bi-check-circle"></i> 
+                        <span>View and manage your interaction history, including likes, comments, shares, deleted posts, requests, and time spent on the platform. Additional settings like enabling Dark Mode and activating the “She is Safe” feature for enhanced safety are included.
+                        </span></li>
+
+                        <h5>Chats Setting:
+                        </h5>
+  
+                        <li><i class="bi bi-check-circle"></i> 
+                          <span>Customize how others can contact you and control your messaging preferences.
+                          </span></li>
+
+
+                        <h5>Add Trusted Contacts:
+                        </h5>
+  
+                        <li><i class="bi bi-check-circle"></i> 
+                          <span>Easily include friends, family, or Shayaka members as trusted contacts for emergency notifications.
+                          </span></li>
+                            </div>
+
+                            <div class="col-lg-8 ps-lg-5 content-section" data-aos="fade-up" data-aos-delay="200" style="display: none;"
+                            id="Chats & Group Overview">
+                           <img src="assets/Website Image of Shayaka Option/Chats & Group.png" alt="" class="img-fluid services-img">
+                            <h3>Chats & Group Overview 
+                            <h3>
+                              Features
+                            </h3>
+                            <ul>
+                
+                              <h5>Security
+                              </h5>
+                              <li><i class="bi bi-check-circle"></i> 
+                                <span> Safeguard your account with robust privacy options and control access to your data.
+                                </span></li>
+                                
+                                <h5>Help :
+                                </h5>
+                
+                                <li><i class="bi bi-check-circle"></i> 
+                                  <span> Access comprehensive support and resources to resolve any queries.
+
+                                  </span></li>      
+        </div>
+                          
+            
+      
+  </main>
+
+  <!-- Contact Section -->
+<section id="contact" class="contact section light-background">
+  
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Get in touch, and I'll answer any queries you have.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row g-4 g-lg-5">
+      
+      <!-- Contact Info -->
+      <div class="col-lg-5">
+        <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+          <h3>Contact Info</h3>
+
+          <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <i class="bi bi-geo-alt"></i>
+            </div>
+            <div class="content">
+              <h4>Our Location</h4>
+              <p>Sion Bandra Link Road Near
+                Shiv Sena Shakha Dharavi Mumbai Maharashtra 400017,</p>
+            </div>
+          </div>
+
+          <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon-box">
+              <i class="bi bi-telephone"></i>
+            </div>
+            <div class="content">
+              <h4>Phone Number</h4>
+              <p>+91 8356840131</p>
+              <p>+91 7900187878</p>
+            </div>
+          </div>
+
+          <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <i class="bi bi-envelope"></i>
+            </div>
+            <div class="content">
+              <h4>Email Address</h4>
+              <p>supportteam@karmas.in.net
+              </p>
+            </div>
+          </div>
+
+          <!-- Small Google Map -->
+          <div class="info-item" data-aos="fade-up" data-aos-delay="600">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15079.095738036387!2d72.8500199!3d19.0402355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf26b3dfc1ff%3A0x4d5129b771e05fc!2sDharavi%2C%20Mumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1649923456789" 
+              width="200%" 
+              height="200" 
+              style="border:0; border-radius:10px; margin-top:10px;" 
+              allowfullscreen="" 
+              loading="lazy">
+            </iframe>
+          </div>
+          <!-- End Small Google Map -->
+
+        </div>
+      </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+              <h3>Get In Touch</h3>
+
+              <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="php-email-form" data-aos="fade-up"
+                data-aos-delay="200">
+                <input type="hidden" name="access_key" value="7499e2ee-8ec9-47fb-be53-fc67e47ca688">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+    
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <!-- <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Hic solutasetp</h4>
+          <ul>
+            <li><a href="#">Molestiae accusamus iure</a></li>
+            <li><a href="#">Excepturi dignissimos</a></li>
+            <li><a href="#">Suscipit distinctio</a></li>
+            <li><a href="#">Dilecta</a></li>
+            <li><a href="#">Sit quas consectetur</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Nobis illum</h4>
+          <ul>
+            <li><a href="#">Ipsam</a></li>
+            <li><a href="#">Laudantium dolorum</a></li>
+            <li><a href="#">Dinera</a></li>
+            <li><a href="#">Trodelas</a></li>
+            <li><a href="#">Flexo</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div> -->
+
+    <!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+
+  <div class="container footer-top">
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6 footer-info">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="assets/img/Group 13.svg" alt="">
+        </a>
+        <p>
+          Empowering communities through kindness and real impact.
+          Together, we create a future built on humanity and support.
+        </p>
+        <div class="social-links d-flex mt-4">
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        </div>
+        </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Request .html">Requests</a></li>
+          <li><a href="NGOs.html">NGOs</a></li>
+          <li><a href="Shayaka.html">Shayakas</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">Terms & Conditions</a></li>
+          <li><a href="#" data-bs-toggle="modal" data-bs-target="#privacyModal">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-md-6 footer-contact text-center text-md-start">
+        <h4>Contact</h4>
+        <p>
+          Sion Bandra Link Road Near Shiv Sena Shakha Dharavi Mumbai Maharashtra 400017, <br><br>
+          <strong>Email:</strong> supportteam@karmas.in.net<br>
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+
+</footer>
+
+<!-- Terms & Conditions Modal -->
+<div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="termsModalLabel">Terms & Conditions</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <p>Welcome to <strong>Karmas</strong>, a hybrid <strong>social media and social impact platform</strong> designed to help users share, support, and take real actions for community well-being by collaborating with verified NGOs and like-minded individuals. These Terms and Conditions (“Terms”) govern your access to and use of the Karmas mobile application, website, services, and features (collectively, the “Platform”). By using the Platform, you agree to be legally bound by these Terms and our Privacy Policy.</p>
+
+        <hr>
+        <h5>1. About Karmas</h5>
+        <p>Karmas combines <strong>social connectivity</strong> with <strong>community-driven action</strong>. Users can:</p>
+        <ul>
+          <li>Post and share social content (text, images, videos)</li>
+          <li>Request or offer help to the community</li>
+          <li>Collaborate with verified NGOs</li>
+          <li>Earn points for socially beneficial actions</li>
+          <li>Build a profile that showcases impact and interaction</li>
+        </ul>
+        <p>Karmas encourages responsible social networking built around <strong>trust, action, and compassion</strong>.</p>
+
+        <hr>
+        <h5>2. Acceptance of Terms</h5>
+        <ul>
+          <li>Have read, understood, and agreed to these Terms and our Privacy Policy.</li>
+          <li>Are legally eligible to enter into a binding agreement under applicable laws.</li>
+        </ul>
+        <p>If you do not agree to any part of the Terms, you may not access or use the Platform.</p>
+
+        <hr>
+        <h5>3. Eligibility</h5>
+        <ul>
+          <li>You must be at least <strong>13 years of age</strong>.</li>
+          <li>If you are under 18, use must be supervised by a parent or guardian.</li>
+          <li>NGOs and organizations must submit verifiable legal documentation.</li>
+        </ul>
+
+        <hr>
+        <h5>4. Account Registration & Security</h5>
+        <ul>
+          <li>You must register using accurate personal information.</li>
+          <li>You are responsible for maintaining confidentiality of login credentials.</li>
+          <li>You are responsible for all activities under your account.</li>
+        </ul>
+
+        <hr>
+        <h5>5. Features of the Platform</h5>
+        <strong>a. Social Media Functions</strong>
+        <ul>
+          <li>Post images, text, or videos</li>
+          <li>Follow/friend other users</li>
+          <li>Like, comment, and share posts</li>
+          <li>Report harmful content</li>
+        </ul>
+        <strong>b. Social Impact Functions</strong>
+        <ul>
+          <li>Create and respond to help requests</li>
+          <li>Track your social actions and history</li>
+          <li>Collaborate with verified NGOs</li>
+          <li>Receive updates on community efforts</li>
+        </ul>
+        <strong>c. Reward System</strong>
+        <ul>
+          <li>Earn points for verified contributions</li>
+          <li>Redeem points for vouchers or recognition</li>
+          <li>Points cannot be converted to real money</li>
+        </ul>
+
+        <hr>
+        <h5>6. Code of Conduct</h5>
+        <p>You agree <strong>not</strong> to:</p>
+        <ul>
+          <li>Post harmful or offensive content</li>
+          <li>Harass, bully, or stalk users</li>
+          <li>Spread misinformation or hate speech</li>
+          <li>Exploit the platform for illegal activity</li>
+          <li>Spam or manipulate the reward system</li>
+        </ul>
+
+        <hr>
+        <h5>7. NGO & Community Verification</h5>
+        <ul>
+          <li>Verified NGOs only</li>
+          <li>Requests reviewed for authenticity</li>
+          <li>Misuse results in suspension</li>
+        </ul>
+
+        <hr>
+        <h5>8. Content Ownership & Usage</h5>
+        <ul>
+          <li>You retain ownership of content uploaded</li>
+          <li>You grant Karmas usage rights for promotion and moderation</li>
+          <li>Content violating policies can be removed</li>
+        </ul>
+
+        <hr>
+        <h5>9. Data and Privacy</h5>
+        <p>Karmas collects user data for operation, analytics, and security. Your data is protected and <strong>never sold to third parties</strong>.</p>
+
+        <hr>
+        <h5>10. Termination and Suspension</h5>
+        <p>We may terminate accounts for policy violation or fraud.</p>
+
+        <hr>
+        <h5>11. Limitations & Disclaimers</h5>
+        <p>Karmas is not responsible for interactions or outcomes between users and NGOs.</p>
+
+        <hr>
+        <h5>12. Changes to Platform</h5>
+        <p>We may modify features. Continued use means acceptance.</p>
+
+        <hr>
+        <h5>13. Third-Party Links & Services</h5>
+        <p>Karmas is not responsible for third-party websites.</p>
+
+        <hr>
+        <h5>14. Governing Law</h5>
+        <p>Subject to Indian law with jurisdiction in Mumbai, Maharashtra.</p>
+
+        <hr>
+        <h5>15. Contact</h5>
+        <p>Email: support@karmasapp.in<br>
+        Website: www.karmas.in.net<br>
+        In-App: Settings → Help & Support</p>
+
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Privacy Policy Modal -->
+<div class="modal fade" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="privacyModalLabel">Privacy Policy</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <p>At <strong>Karmas</strong>, your privacy is our priority. This Privacy Policy explains how we collect, use, store, share, and protect your information when you use our mobile app, website, or related services (collectively, the “Platform”).</p>
+        <p>By using Karmas, you agree to the collection and use of information in accordance with this Privacy Policy.</p>
+
+        <hr>
+        <h5>1. 📥 Information We Collect</h5>
+        <p>We collect personal and non-personal information in the following ways:</p>
+
+        <strong>a. Personal Information</strong>
+        <ul>
+          <li>Full name</li>
+          <li>Date of birth</li>
+          <li>Gender</li>
+          <li>Mobile number & email address</li>
+          <li>Profile photo</li>
+          <li>Government-issued ID (for NGOs or verification)</li>
+          <li>Location (GPS, if allowed)</li>
+        </ul>
+
+        <strong>b. Non-Personal Information</strong>
+        <ul>
+          <li>Device type, OS, app version</li>
+          <li>IP address and geolocation (coarse)</li>
+          <li>Interaction data (clicks, time spent, screens viewed)</li>
+          <li>Log data (crashes, errors)</li>
+        </ul>
+
+        <strong>c. User-Generated Content</strong>
+        <ul>
+          <li>Posts (images, videos, captions)</li>
+          <li>Help requests/responses</li>
+          <li>Comments and likes</li>
+          <li>Messaging/chat content (if enabled)</li>
+        </ul>
+
+        <hr>
+        <h5>2. 🎯 Why We Collect Your Data</h5>
+        <p>We use your data to:</p>
+        <ul>
+          <li>Create and manage your user profile</li>
+          <li>Enable core app features</li>
+          <li>Recommend NGOs, causes, or friends</li>
+          <li>Improve app performance through analytics</li>
+          <li>Prevent abuse, spam, and fraud</li>
+          <li>Send important updates</li>
+          <li>Verify identities for NGOs and partners</li>
+          <li>Manage reward systems and redemptions</li>
+        </ul>
+        <p>We only collect the minimum required data.</p>
+
+        <hr>
+        <h5>3. 📤 How We Share Your Information</h5>
+        <p><strong>We never sell your data.</strong></p>
+        <p>We may share limited data with:</p>
+        <ul>
+          <li>Verified NGOs and partners</li>
+          <li>Third-party service tools (email, analytics, cloud)</li>
+          <li>Legal authorities if required</li>
+        </ul>
+
+        <hr>
+        <h5>4. 🎁 Reward & Referral System</h5>
+        <ul>
+          <li>We store points, referral code, redemption history</li>
+          <li>Data shared only if required for voucher delivery</li>
+        </ul>
+
+        <hr>
+        <h5>5. 🔒 Data Security</h5>
+        <p>We use modern security methods including:</p>
+        <ul>
+          <li>SSL encryption</li>
+          <li>Secure cloud storage</li>
+          <li>Encrypted login sessions</li>
+          <li>Suspicious activity monitoring</li>
+        </ul>
+
+        <hr>
+        <h5>6. 📅 Data Retention</h5>
+        <p>We retain your data while your account is active or as legally required. You may request deletion anytime.</p>
+
+        <hr>
+        <h5>7. 👤 Your Rights</h5>
+        <ul>
+          <li>Access, correct, delete, restrict, export data</li>
+          <li>Withdraw consent anytime</li>
+        </ul>
+        <p>Email: privacy@karmasapp.in</p>
+
+        <hr>
+        <h5>8. 🧒 Children’s Privacy</h5>
+        <p>Not for children under 13. We delete such data immediately if found.</p>
+
+        <hr>
+        <h5>9. 🌍 Cross-Border Data Transfers</h5>
+        <p>Your data may be processed outside your country; by using the app you consent to such transfers.</p>
+
+        <hr>
+        <h5>10. 🔄 Changes to This Policy</h5>
+        <p>We may update this policy and notify users if changes are important.</p>
+
+        <hr>
+        <h5>11. 📬 Contact Us</h5>
+        <p>Karmas Privacy Team</p>
+        <p>Email: privacy@karmas.in<br>
+        Website: www.karmas.in.net<br>
+        In-App: Settings > Help & Support</p>
+
+        <hr>
+        <h5>12. 📝 Consent</h5>
+        <p>By using the app, you consent to this Privacy Policy and future updates.</p>
+
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- End Footer -->
+
+
+
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Karmas</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <B>Karmas Team</B>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const form = document.getElementById("contact-form");
+      const loading = form.querySelector(".loading");
+      const errorMessage = form.querySelector(".error-message");
+      const sentMessage = form.querySelector(".sent-message");
+  
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+  
+        // Show loading, hide messages
+        loading.style.display = "block";
+        errorMessage.style.display = "none";
+        errorMessage.textContent = "";
+        sentMessage.style.display = "none";
+  
+        const formData = new FormData(form);
+  
+        fetch(form.action, {
+          method: "POST",
+          body: formData,
+          headers: {
+            Accept: "application/json"
+          }
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            loading.style.display = "none";
+  
+            if (data.success) {
+              sentMessage.style.display = "block";
+              errorMessage.style.display = "none";
+              form.reset();
+            } else {
+              errorMessage.textContent = data.message || "Something went wrong!";
+              errorMessage.style.display = "block";
+              sentMessage.style.display = "none";
+            }
+          })
+          .catch(() => {
+            loading.style.display = "none";
+            errorMessage.textContent = "Network error. Please try again later.";
+            errorMessage.style.display = "block";
+            sentMessage.style.display = "none";
+          });
+      });
+    });
+  </script>
+  
+</body>
+
+</html>
