@@ -22,3 +22,13 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment files
+.env
+.env.local
+config.local.js
+credentials.js
+
+# API keys and secrets
+**/api-keys.js
+**/secrets.js

@@ -1010,7 +1010,7 @@
 
               <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="php-email-form" data-aos="fade-up"
                 data-aos-delay="200">
-                <input type="hidden" name="access_key" value="f71038d2-9598-4603-85bc-1df76b440733">
+                <input type="hidden" name="access_key" id="contact-form-access-key">
                 <div class="row gy-4">
 
                   <div class="col-md-6">
@@ -1039,7 +1039,14 @@
 
                 </div>
               </form>
-
+              <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                  const accessKey = document.getElementById("contact-form-access-key");
+                  if (accessKey && window.CONFIG) {
+                    accessKey.value = CONFIG.FORM.WEB3FORMS_KEY;
+                  }
+                });
+              </script>
             </div>
           </div>
 

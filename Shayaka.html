@@ -608,6 +608,7 @@
   
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="config.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const form = document.getElementById("contact-form");
@@ -660,7 +661,7 @@
     <!-- Top Shayakas Dynamic Loading Script -->
     <script>
       // API endpoint
-      const API_URL = 'http://13.200.125.58:3000/api/v1/score_history/get/topScorers';
+      const API_URL = CONFIG.API.SHAYAKA_BASE_URL;
       
       // Default placeholder image
       const DEFAULT_AVATAR = 'assets/User/blank_profile_picture.png';

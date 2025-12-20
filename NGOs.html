@@ -306,7 +306,7 @@
 
               <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="php-email-form" data-aos="fade-up"
                 data-aos-delay="200">
-                <input type="hidden" name="access_key" value="f71038d2-9598-4603-85bc-1df76b440733">
+                <input type="hidden" name="access_key" id="form-access-key">
                 <div class="row gy-4">
 
                   <div class="col-md-6">
@@ -337,6 +337,12 @@
               </form>
 
             </div>
+            <script>
+                // Set form access key from config
+                document.addEventListener("DOMContentLoaded", function () {
+                  document.getElementById("form-access-key").value = CONFIG.FORM.WEB3FORMS_KEY;
+                });
+          </script>
           </div>
 
         </div>
@@ -497,6 +503,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="config.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const form = document.getElementById("contact-form");
@@ -549,8 +556,8 @@
   <!-- NGO Dynamic Data Loading Script -->
   <script>
     // API endpoint with pagination
-    const API_BASE_URL = 'http://13.200.125.58:3000/api/v1/ngo_master/getAll';
-    const BASE_IMAGE_URL = 'http://13.200.125.58:3000/resources/'; // Base URL for images
+    const API_BASE_URL = CONFIG.API.NGO_BASE_URL;
+    const BASE_IMAGE_URL = CONFIG.API.IMAGE_BASE_URL; // Base URL for images
     const ITEMS_PER_PAGE = 10;
     let currentPage = 1;
     let totalNGOs = 0;

@@ -1413,12 +1413,12 @@
       });
     });
   </script>
-
+  <script src="config.js"></script>
   <!-- Request Dynamic Data Loading Script -->
   <script>
     // API endpoint with pagination
-    const API_BASE_URL = 'http://13.200.125.58:3000/api/v1/requests/getAll';
-    const BASE_IMAGE_URL = 'http://13.200.125.58:3000/resources/';
+    const API_BASE_URL = CONFIG.API.REQUESTS_BASE_URL;
+    const BASE_IMAGE_URL = CONFIG.API.IMAGE_BASE_URL;
     const ITEMS_PER_PAGE = 10;
     let currentPage = 1;
     let totalRequests = 0;
